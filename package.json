@@ -1,7 +1,7 @@
 {
   "name": "ecommerce-product-page",
   "private": true,
-  "version": "1.0.1",
+  "version": "1.0.0",
   "type": "module",
   "description": "Pagina prodotto e-commerce con animazioni, realizzata con React, TypeScript e Framer Motion per un'esperienza utente coinvolgente.",
   "technologies": [
