@@ -1,0 +1,25 @@
+# https://www.robotstxt.org/robotstxt.html
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Product pages
+Allow: /products/
+Allow: /collections/
+Allow: /men/
+Allow: /women/
+Allow: /about/
+Allow: /contact/
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /account/
+Disallow: /checkout/
+Disallow: /cart/
+
+# Disallow API endpoints
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://ecommerce-product-page/sitemap.xml
