@@ -1,0 +1,41 @@
+{
+  "source": {
+    "include": ["src"],
+    "includePattern": "\\.(jsx|js|ts|tsx)$",
+    "excludePattern": "(node_modules/|docs)"
+  },
+  "plugins": ["jsdoc-babel"],
+  "babel": {
+    "extensions": ["ts", "tsx"],
+    "presets": ["@babel/preset-typescript"]
+  },
+  "opts": {
+    "destination": "./src/docs",
+    "recurse": true,
+    "template": "node_modules/clean-jsdoc-theme",
+    "theme_opts": {
+      "default_theme": "dark",
+      "title": "E-commerce Documentation",
+      "menu": [
+        {
+          "title": "Website",
+          "link": "/",
+          "target": "_self"
+        }
+      ],
+      "meta": [
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1.0"
+        }
+      ],
+      "search": true,
+      "create_style": true,
+      "include_css": [],
+      "include_js": []
+    }
+  },
+  "tags": {
+    "allowUnknownTags": true
+  }
+}

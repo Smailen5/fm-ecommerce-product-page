@@ -1,9 +1,7 @@
-# Template per tutti i progetti
-
 # ==================================================
 # Dipendenze
 # ==================================================
-node-modules/
+node_modules/
 /.pnp
 .pnp.js
 
@@ -11,10 +9,12 @@ node-modules/
 # Log
 # ==================================================
 logs
-*.logs
+*.log
 npm-debug.log*
 yarn-debug.log*
+yarn-error.log*
 pnpm-debug.log*
+lerna-debug.log*
 
 # ==================================================
 # Build e Output
@@ -35,6 +35,7 @@ coverage/
 .nyc_output/
 .eslintignore
 .eslintrc.cjs
+.prettierignore
 .netlify
 
 # ==================================================
@@ -59,6 +60,7 @@ Thumbs.db
 *.njsproj
 *.sln
 *.sw?
+.idea
 
 # ==================================================
 # Agenti e AI
