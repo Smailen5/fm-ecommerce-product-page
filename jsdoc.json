@@ -10,7 +10,7 @@
     "presets": ["@babel/preset-typescript"]
   },
   "opts": {
-    "destination": "./src/docs",
+    "destination": "./docs",
     "recurse": true,
     "template": "node_modules/clean-jsdoc-theme",
     "theme_opts": {

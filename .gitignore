@@ -27,6 +27,7 @@ out/
 .tsbuildinfo
 *.local
 *.cache
+docs/
 
 # ==================================================
 # File di configurazione e Test
